@@ -1,6 +1,6 @@
 # ReactJs Chrome Extension
 
-Create chrome extensions with reactjs-chrome-extension package 
+Quick create chrome extensions with reactjs-chrome-extension template 
 
 ### Open Source
 Welcome to contribute to open source project,
@@ -8,16 +8,40 @@ Welcome to contribute to open source project,
 
 ## Description
 
-This package allowed you to create chrome extensions quickly with predefined sets of 
-templates, classes, and quick replacement with different themes.
+This template will allow you to create quick chrome extensions with predefined sets of 
+components, classes, quick replacement and different themes.
 
-## Install/Setup package
-In your reactjs application 
+## Prerequisite installation and setup
+ - node >= 16.8.0
+ - yarn >= 1.22.11
+ - npm >= 8.1.4
+
+## How to use this template?
+
+ - Start creating new project using this template with following command
+ - Note: replace my-app-name with your app name
 ```
-yarn add reactjs-chrome-extension
+npx create-react-app my-app-name --template reactjs-chrome-extension
 ```
-or 
+
+## Pre setup
 ```
-npm install reactjs-chrome-extension
+cd my-app-name
+yarn install
 ```
+
+## See popup page
+```
+yarn start
+```
+then open http://localhost:8080 in your browser
+
+# Install Extension
+## Step 1 - build
+```
+yarn run build-extension
+```
+## Step 2 - load 
+Make sure you have enabled developer mode in browser, then 
+load extension in your browser
 

@@ -1,50 +1,14 @@
 {
   "name": "reactjs-chrome-extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3",
-    "web-vitals": "^1.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build-extension": "./build-extension.sh"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "description": "This is the open source project to create quick chrome extension in react js",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "This is an open source project template to create chrome extensions quickly",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/the-open-source/reactjs-chrome-extension.git"
   },
   "author": "Lokesh Bhoyar",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/the-open-source/reactjs-chrome-extension/issues"
   },
