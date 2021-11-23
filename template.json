@@ -38,7 +38,6 @@
     "licence": "MIT",
     "bugs": {
       "url": "https://github.com/the-open-source/reactjs-chrome-extension/issues"
-    },
-    "homepage": "https://github.com/the-open-source/reactjs-chrome-extension#readme"
+    }
   }
 }

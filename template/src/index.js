@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './main/app/App';
+import Popup from './main/popup/Popup';
 import reportWebVitals from './test/reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Popup />
   </React.StrictMode>,
   document.getElementById('root')
 );
