@@ -1,6 +1,6 @@
 {
-  "name": "reactjs-chrome-extension",
-  "version": "0.1.3",
+  "name": "cra-template-chrome-extension",
+  "version": "0.0.1",
   "private": false,
   "description": "This is an open source project template to create chrome extensions quickly",
   "repository": {

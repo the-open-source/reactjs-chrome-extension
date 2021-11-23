@@ -1,4 +1,4 @@
-# ReactJs Chrome Extension
+# React Js Chrome Extension Template
 
 Quick create chrome extensions with reactjs-chrome-extension template 
 
